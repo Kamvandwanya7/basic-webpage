@@ -19,19 +19,20 @@ header h1{
     text-decoration-color: violet;
 }
 .page{
-    background-color: rgb(157, 167, 139);
+ background-color: rgb(157, 167, 139); 
     /* padding: 30px; */
     /* margin: 30px; */
     line-height: 1.5;
     /* font-size: 14px; */
     text-align: justify;
     justify-content: center;
-    align-content: center;
 }
 
-h1{
+h2{
  color: darkgreen;
  font-family: cursive;
+ justify-content: center;
+ display: flex;
 }
 
 .pictureBox{
@@ -39,11 +40,24 @@ h1{
 }
 .city{
     display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraph{
+    margin-right: 10%;
+}
+.durban{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
 }
 .nextDoor {
     display: flex;
      /* width: 30em; */
-    padding: 13px;
+    /* padding: 13px; */
 }
 .nextDoor img{
     float: left;
@@ -53,24 +67,23 @@ h1{
 .pictures{
     float: left;
 }
-.kamva{
-    display: flex;
-}
 
 .next{
-    width: 185px;
+    /* width: 215px; */
 }
 
 h3{
     justify-content: center;
     display: flex;
+
     /* color: darkslategray; */
     /* background-color: darkseagreen; */
 }
 
 table, tr, th, td {
     border: 2px solid black;
-    border-collapse: collapse;   
+    border-collapse: collapse;
+    margin-left: 30%; 
     }
     th{
         background-color: gray;
@@ -79,7 +92,7 @@ table, th, td{
     padding: 10px;
 }
     
-@media(max-width: 1200px){
+@media(max-width: 800px){
     .nextDoor{
     flex-direction: column;
 }
