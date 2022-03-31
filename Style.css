@@ -52,7 +52,7 @@ h2{
     align-content: center;
     justify-content: center;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .nextDoor {
     display: flex;
@@ -71,7 +71,9 @@ h2{
 .next{
     /* width: 215px; */
 }
-
+.language{
+    padding: 8px;
+}
 h3{
     justify-content: center;
     display: flex;
@@ -82,8 +84,9 @@ h3{
 
 table, tr, th, td {
     border: 2px solid black;
+    border-spacing: 10px;
     border-collapse: collapse;
-    margin-left: 25%; 
+    margin-left: 20%; 
     }
     th{
         background-color: gray;
