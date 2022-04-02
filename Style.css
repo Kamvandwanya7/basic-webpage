@@ -12,17 +12,17 @@ img{
     /* height: 240px; */
     /* width: 250px; */
   /* max-width: 400px; */
-    height: 240px;
+    /* height: 250px;  */
     padding: 10px;
 }
 header h1{
     text-decoration-color: violet;
 }
 .page{
- background-color: rgb(157, 167, 139); 
+ background-color: rgb(186, 212, 160); 
     /* padding: 30px; */
     /* margin: 30px; */
-    line-height: 1.5;
+    /* line-height: 1.5; */
     /* font-size: 14px; */
     text-align: justify;
     justify-content: center;
@@ -69,17 +69,18 @@ h2{
 }
 
 .next{
-    /* width: 215px; */
+    /* width: 240px; */
+    /* justify-content:center; */
+ 
 }
 .language{
     padding: 8px;
 }
-h3{
-    justify-content: center;
+.nextDoor1{
     display: flex;
-
-    /* color: darkslategray; */
-    /* background-color: darkseagreen; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 table, tr, th, td {
@@ -95,15 +96,25 @@ table, tr, th, td {
 table, th, td{
     padding: 15px;
 }
+.buildings{
+    margin: 10px;
+}
+.nextDoor p{
+    max-width: 300px;
+}
     
 @media(max-width: 800px){
     .nextDoor{
     flex-direction: column;
-}
-.intro{
-    flex-direction: column;
-}
-.city{
-    flex-direction: column;
-}
+
+    }
+    .intro{
+        flex-direction: column;
+    }
+    .city{
+        flex-direction: column;
+    }
+    .nextDoor1{
+        flex-direction: column;
+    }
 }
