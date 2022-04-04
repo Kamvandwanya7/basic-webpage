@@ -33,6 +33,7 @@ h2{
  font-family: cursive;
  justify-content: center;
  display: flex;
+ padding-top: 5%;
 }
 
 .pictureBox{
@@ -62,7 +63,7 @@ h2{
 .nextDoor img{
     float: left;
     /* width: 30em;
-    padding: 10px;*/
+     padding: 10px;*/
 }
 .pictures{
     float: left;
@@ -73,8 +74,12 @@ h2{
     /* justify-content:center; */
  
 }
+.built{
+ max-width: 30px;
+}
 .language{
     padding: 8px;
+    text-align: center;
 }
 .nextDoor1{
     display: flex;
@@ -97,10 +102,10 @@ table, th, td{
     padding: 15px;
 }
 .buildings{
-    margin: 10px;
+    margin: 12px;
 }
 .nextDoor p{
-    max-width: 300px;
+    max-width: 360px;
 }
     
 @media(max-width: 800px){
