@@ -48,6 +48,7 @@ h2{
 
 .paragraph{
     margin-right: 4%;
+    text-align: justify;
 }
 .durban{
     align-content: center;
@@ -76,10 +77,14 @@ h2{
 }
 .built{
  max-width: 30px;
+ text-align: justify;
 }
 .language{
     padding: 8px;
-    text-align: center;
+    text-align: justify;
+    justify-content: center;
+
+
 }
 .nextDoor1{
     display: flex;
